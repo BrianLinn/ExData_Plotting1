@@ -7,6 +7,7 @@ png(file="plot3.png", width = 480, height = 480, units = "px")
 #Create initial plot of energy sub metering over time as line graph
 with(powerSub, plot(Time, Sub_metering_1, type = "l", xlab = "", 
                     ylab = "Energy sub metering"))
+
 #add the line for sub metering _2
 lines(powerSub$Time, powerSub$Sub_metering_2, col = "red")
 
