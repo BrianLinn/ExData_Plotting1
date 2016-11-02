@@ -7,7 +7,7 @@ png(file="plot4.png", width = 480, height = 480, units = "px")
 #Set plot space to 2 x 2 filled row-wise
 par(mfrow = c(2, 2))
 
-#Create initial plot of Global active power over time as line graph
+#Create initial plot of Global_active_power over time as line graph
 with(powerSub, plot(Time, Global_active_power, type = "l", xlab = "", 
                     ylab = "Global Active Power (kilowatts)"))
 

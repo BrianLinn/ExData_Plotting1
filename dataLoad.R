@@ -10,7 +10,7 @@ dataDir <- "./data/power"
 #Set the file location
 fileUrl <- "https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip"
 
-#Download the file
+#Download the file to working directory
 download.file(fileUrl, destfile = "./data/power.zip")
 
 #Unzip the data file to the power subdirectory

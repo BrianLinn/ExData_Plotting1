@@ -14,7 +14,7 @@ lines(powerSub$Time, powerSub$Sub_metering_2, col = "red")
 #add the line for sub metering _3
 lines(powerSub$Time, powerSub$Sub_metering_3, col = "blue")
 
-#add the legend
+#add the legend to the graph
 legend("topright", legend = c("Sub_metering_1", "Sub_metering_2", 
                               "Sub_metering_3"), lty = 1, 
                                 col = c("black", "red", "blue"))
